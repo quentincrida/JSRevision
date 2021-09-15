@@ -26,19 +26,8 @@ function addArray(arr) {
 }
 console.log("Sum of array of numbers:", addArray([1,2,3,4]));
 
-//Task 2
 
-// const matching = function(object, searchString) {
-// for(var key in object) {
-//     if(searchString !== key) {
-//         return false;
-//     } 
-//     }
-//     return true;
-// }
+//Arrow function
+let multiply = (numA, numB) => numA * numB;
 
-// var person = {name: 'Piele', age: 30};
-// var keyIsFound = objectHasKey(person, 'name');
-// var keyNotFound = objectHasKey(person, 'mobile');
-
-// console.log(matching(keyIsFound));
+console.log('Multiply 3 by 6:', multiply(3, 6));

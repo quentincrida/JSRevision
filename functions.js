@@ -31,3 +31,11 @@ console.log("Sum of array of numbers:", addArray([1,2,3,4]));
 let multiply = (numA, numB) => numA * numB;
 
 console.log('Multiply 3 by 6:', multiply(3, 6));
+
+// ******************
+
+var addition = function(firstNum, secondNum) {
+    return firstNum + secondNum;
+}
+var twoPlusTwenty = addition(2, 20);
+console.log(twoPlusTwenty);
